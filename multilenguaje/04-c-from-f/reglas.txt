@@ -1,0 +1,4 @@
+En el archivo de fortran se cambió el loop "do" cambiando 200 por  n para que los archvos f90 y c tengan las mismas dimensiones
+En el archivo .c se cambiò la definiciòn de los parametros de entrada y salida  de la funciòn ya que fortran manda solo el puntero de las variables a excepciòn de los array que mandan puntero/valor , por lo cual se le agregaron los * (usados por c para identificar punteros), ademas se saco el sum del return para que los argementos de entrada y salida  para que el programa y subrutina tengan la misma cantidad
+
+El resultado es 10000

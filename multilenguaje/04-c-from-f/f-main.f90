@@ -4,7 +4,7 @@ program testsum
   integer, parameter :: n=200
   integer :: data(n), asum, i
 
-  do i=1,200
+  do i=1,n
     data(i) = i-100
   end do
 
